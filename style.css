@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: fantasy;
+    background-color: azure;
+}
+
+.container{
+    background-color: antiquewhite;
+    min-height: 40vh;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    border: 2.7px solid black;
+    border-radius: 10px;
+    /* min-width: 150vh; */
+}
+.counter{
+    font-size: 56px;
+    padding: 3vh;
+    font-family: fantasy;
+    /* letter-spacing: 0.3rem; */
+}
+.count{
+    font-size: 100px;
+}
+.increase{
+    padding: 1.5vh;
+    margin: 2rem;
+    background-color: antiquewhite;
+}
+.reset{
+    padding: 1.5vh;
+    margin: 2rem;
+    background-color: antiquewhite;
+}
+.decrease{
+    padding: 1.5vh;
+    margin: 2rem;
+    background-color: antiquewhite;
+}
+button{
+    border: 2.5px solid black;
+    border-radius: 10px;
+    
+}
+/* button:hover{
+    font-size: 15px;
+} */
+
+.increase:hover{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: chartreuse;
+    
+}
+.decrease:hover{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: crimson;
+}
+.reset:hover{
+    font-size: 13.4px;
+    font-weight: 800;
+   
+}
